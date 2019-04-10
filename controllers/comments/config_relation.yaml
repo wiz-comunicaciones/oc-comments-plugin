@@ -1,0 +1,8 @@
+comments:
+    label: Comentario
+    view:
+        list: $/wiz/comments/models/comment/columns.yaml
+        toolbarButtons: create
+        showCheckboxes: false
+    manage:
+        form: $/wiz/wlaver/models/comment/fields.yaml

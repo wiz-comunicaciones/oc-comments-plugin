@@ -1,0 +1,5 @@
+fields:
+    content:
+        label: Comentario
+        type: textarea
+        required: 1

@@ -1,0 +1,23 @@
+columns:
+    id:
+        label: 'ID'
+        type: number
+        searchable: 1
+        invisible: 1
+
+    content:
+        label: 'Comentario'
+        searchable: 1
+        type: text
+
+    author_name:
+        label: 'Autor'
+        searchable: 1
+        select: 'TRIM(CONCAT(first_name, '' '', last_name))'
+        relation: author
+
+    created_at:
+        label: 'Fecha Ingreso'
+        type: datetime
+        searchable: 1
+        format: 'd/m/Y H:i:s'
