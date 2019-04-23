@@ -36,7 +36,7 @@ class Plugin extends PluginBase
     {
         # Polymorphic relation map (keep keys short)
         Relation::morphMap([
-            'comment'   => \Wiz\Comments\Models\Comment::class,
+            'wiz_comment'   => \Wiz\Comments\Models\Comment::class,
         ]);
     }
 
